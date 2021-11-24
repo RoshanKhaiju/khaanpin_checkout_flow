@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-top">
+            <p>Khaanpin 24 Hour Food Delivery</p>
+            <p>Call us: +977-9801225225</p>
+        </div>
+        <nav class="navbar">
+            <div class="navbarLeft">
+                <img class="logo" src="images/logo/khaanpin3-logo.png" alt="khaanpin-logo">
+                <button class="navButton active">KATHMANDU</button>
+                <button class="navButton">POKHARA</button>
+            </div>
+            <div class="navbarRight">
+                <ul>
+                    <li><a href="#">Login |</a></li>
+                    <li><a href="#"> Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="delivery-info">
+        <section class="main-left">
+            <div class="for-me">
+                <p class="title">Enter Delivery Information</p>
+                <form action="#" method="post">
+                    <div class="form-btn">
+                        <button><a href="for-me.html">THIS IS FOR ME</a></button>
+                        <button class="active"><a href="is-gift.html">THIS IS GIFT</a></button>
+                    </div>
+                    <div class="form-group">
+                        <label for="receiver's name"><span>*</span> Receiver's Name</label>
+                        <input type="text" placeholder="Receiver's Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="receiver's email"><span>*</span> Receiver's Email</label>
+                        <input type="email" placeholder="Receiver's Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="receiver's number"><span>*</span> Receiver's Number</label>
+                        <input type="tel" placeholder="Receiver's Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Sender's Name"><span>*</span> Sender's Name</label>
+                        <input type="text" placeholder="Sender's Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="senders's email"><span>*</span> Sender's Email</label>
+                        <input type="email" placeholder="Sender's Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Sender's Social Media"><span>*</span> Sender's Social Media</label>
+                        <div class="radio">
+                            <input type="radio" name="media" id="viber"> Viber
+                            <input type="radio" name="media" id="whatsapp"> Whatsapp
+                            <input type="radio" name="media" id="messenger"> Messenger
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Deliver location"><span>*</span> Delivery Location</label>
+                        <input type="text" placeholder="Receiver's Location" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Note</label>
+                        <textarea name="note" id="note"></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="main-right">
+            <div class="order-summary">
+                <p class="title">Order Summary</p>
+                <div class="items-list">
+                    <div class="item">
+                        <div class="item-left">
+                            <img src="images/foods/bestInTown/chickenlollypop.jpg" alt="chicken-lolly-pop">
+                        </div>
+                        <div class="item-right">
+                            <div class="item-name">
+                                Khaanpin's Special Fudgy Walnut Brownie
+                            </div>
+                            <div class="item-qty">NRs. 800 X 1</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <div class="item-left">
+                            <img src="images/foods/bestInTown/chickenlollypop.jpg" alt="chicken-lolly-pop">
+                        </div>
+                        <div class="item-right">
+                            <div class="item-name">
+                                Khaanpin's Special Fudgy Walnut Brownie
+                            </div>
+                            <div class="item-qty">NRs. 800 X 1</div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="calculations">
+                    <p>Sub-total (4 items)</p>
+                    <p>NRs. 2400</p>
+                </div>
+                <div class="calculations">
+                    <p>Delivery Charge</p>
+                    <p>NRs. 550</p>
+                </div>
+                <button class="discount">Free Brownie In This Order</button>
+                <div class="calculations">
+                    <p>Total</p>
+                    <p>NRs. 2950</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> CONTINUE SHOPPING</a></button>
+                <button class="confirm-order"><a href="payment.html">CONFIRM ORDER</a></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>#FeedYourHustle Delivering 24 Hours!</h2>
+        <h4>Breakfast, Lunch, Dinner, Latenight Munchies or Custom Bulk Order, Call (+977)1 5970770 / 9801225225 [KTM] /
+            9802838383 [PKR] <br> We have something for everyone!
+        </h4>
+        <h3>We're Open 24 Hours, 365 Days!</h3>
+        <div class="footerLinks">
+            <a href="#">KATHMANDU</a>
+            <a href="#">POKHARA</a>
+        </div>
+        <h4>Corporate Contact : hello[at]khaanpin.com</h4>
+        <div class="footerLinks">
+            <a href="#">BLOGS</a>
+            <a href="#">JOBS</a>
+            <a href="#">ANDROID APP</a>
+        </div>
+        <div class="footerLinks">
+            <a href="#"><img src="images/socialMedias/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="images/socialMedias/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="images/socialMedias/twitter.png" alt="twitter"></a>
+        </div>
+        <div class="footerLinks">
+            <a href="#">FAQ</a>
+            <a href="#">REFUND AND CANCELLATIONS</a>
+        </div>
+        <h6>&copy; Khaanpin 2021 <br> 0.2.16</h6>
+
+    </footer>
+
+
+    <!-- fontawesme -->
+    <script src="https://use.fontawesome.com/ff7944fe54.js"></script>
+
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

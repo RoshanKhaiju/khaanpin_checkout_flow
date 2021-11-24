@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$theme-color: #ec3934;
+$font-color: #706b6b;
+$detail-color: #333;
+
+$button-active: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  #ec3934;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px 20px;
+    background-color: $theme-color;
+    color: #fff;
+    height: 100px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbarLeft {
+      flex-basis: 30%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 100px;
+        height: 40px;
+      }
+      .navButton {
+        outline: none;
+        border: solid 1px $button-active;
+        border-radius: 10px;
+        padding: 5px 30px;
+        font-size: 18px;
+        color: $button-active;
+      }
+    }
+  }
+}
