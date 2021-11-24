@@ -150,10 +150,11 @@ main {
 /* cart section */
 .cart,
 .recommended-item, .delivery-location,.delivery-info .for-me,.payment-info .payment,.payment-info .payment-option {
-  border: var(--border);
+  /* border: var(--border); */
   border-radius: var(--border-radius);
   padding: 20px;
   width: 570px;
+  box-shadow: 0px 2px 5px rgba(3, 3, 3, 0.3);
 }
 hr {
   opacity: 0.3;
