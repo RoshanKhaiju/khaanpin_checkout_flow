@@ -17,6 +17,30 @@
             <p>Khaanpin 24 Hour Food Delivery</p>
             <p>Call us: +977-9801225225</p>
         </div>
+        <div class="nav-menu">
+            <div class="cross">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo/khaanpin3-logo.png" alt="Khaanpin" class="logo__image" />
+                </a>
+            </div>
+            <div class="buttonWrapper">
+                <button class="navButton active">
+                    KATHMANDU
+                </button>
+                <button class="navButton">POKHARA</button>
+            </div>
+            <div class="menu-item">
+                <ul>
+                    <li><a href="#">Login |</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+        </div>
         <nav class="navbar">
             <div class="navbarLeft">
                 <img class="logo" src="images/logo/khaanpin3-logo.png" alt="khaanpin-logo">
@@ -28,10 +52,24 @@
                     <li><a href="#">Login |</a></li>
                     <li><a href="#"> Register</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </div>
         </nav>
     </header>
     
+    <nav class="breadcrumb">
+        <ul>
+            <li><a href="cart.html" style="color: #60b246;font-size:25px;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            <li><a href="location.html" class="active">Location</a></li>
+            <li><a href="for-me.html">Delivery</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+
     <main class="location-selected">
         <section class="main-left">
             <div class="delivery-location">
@@ -51,8 +89,6 @@
                     <p>Sub-total (4 items)</p>
                     <p>NRs. 2400</p>
                 </div>
-                <button class="location"><a href="location.html">Select Delivery Location</a></button>
-                <p class="small">* delivery charge will be added based on delivery location</p>
                 <div class="coupon-code">
                 <input type="text" name="code" id="code" placeholder="Coupon Code">
                 <button class="apply">APPLY</button>
@@ -63,7 +99,8 @@
                 </div>
             </div>
             <div class="buttons">
-                <button><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> CONTINUE SHOPPING</a></button>
+                <button><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD MORE ITEMS</a></button>
+                <button class="location"><a href="location.html"> SELECT DELIVERY LOCATION</a></button>
                 <button><a href="for-me.html">CONFIRM LOCATION</a></button>
             </div>
         </section>
