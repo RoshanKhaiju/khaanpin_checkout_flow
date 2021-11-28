@@ -65,9 +65,9 @@
 
     <nav class="breadcrumb">
         <ul>
-            <li><a href="cart.html" style="color: #60b246;font-size:25px;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-            <li><a href="location.html" class="success">Location</a></li>
-            <li><a href="for-me.html" class="success">Delivery</a></li>
+            <li><a href="cart.html">cart</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="for-me.html">Delivery</a></li>
             <li><a href="payment.html" class="active">Payment</a></li>
         </ul>
     </nav>
@@ -77,7 +77,7 @@
             <div class="payment">
                 <div class="payment-slip">
                     <div class="payment-slip-top">
-                        <p class="title">Khaanpin Online Food and Grocery Delivery</p>
+                        <p class="title">Khaanpin 24 Hour Food Delivery</p>
                     </div>
                     <div class="payment-slipcode">
                         <ul>
@@ -124,22 +124,34 @@
                     </div>
                     <div class="payment-slip-calculation">
                         <ul>
-                            <li>Discount</li>
-                            <li>Free Brownies in this order</li>
-                        </ul>
-                        <ul>
                             <li>Delivery Charge</li>
                             <li>NRs. 550</li>
+                        </ul>
+                        <ul>
+                            <li>Cybersource Charge</li>
+                            <li>0</li>
+                        </ul>
+                        <ul>
+                            <li>V.A.T.</li>
+                            <li>13%</li>
+                        </ul>
+                        <ul>
+                            <li>Discount</li>
+                            <li>0.0%</li>
                         </ul>
                         <ul>
                             <li>Total</li>
                             <li>NRs. 2950</li>
                         </ul>
+                        <ul>
+                            <li></li>
+                            <li>Free Brownies in this order</li>
+                        </ul>
                     </div>
                     <div class="payment-slip-bottom">
                         <ul>
                             <li>You will get a confirmation call soon</li>
-                            <li>For enquires: <span>Call us at 9801225225</span></li>
+                            <li>For enquires: <span>Call us at +977-9801225225</span></li>
                             <li></li>
                         </ul>
                     </div>
@@ -166,18 +178,18 @@
             <div class="payment-option">
                 <p class="title">Payment Options</p>
                 <div class="options">
-                    <input type="radio" name="payment" id="esewa" required><img src="images/logo/image 5.svg" alt="esewa">
+                    <input type="radio" name="payment" id="esewa" required><label for="esewa"><img src="images/logo/image 5.svg" alt="esewa"></label>
                     <br>
-                    <input type="radio" name="payment" id="master" required><img src="images/logo/image 6.svg" alt="master">
+                    <input type="radio" name="payment" id="master" required><label for="master"><img src="images/logo/image 6.svg" alt="master"></label>
                     <br>
-                    <input type="radio" name="payment" id="cash-on-delivery" required><img src="images/cod.jpg" alt="cash on delivery">
+                    <input type="radio" name="payment" id="cash-on-delivery" required><label for="cash-on-delivery"><img src="images/cod.svg" alt="cash on delivery"></label>
                     <br>
-                    <input type="radio" name="payment" id="bank-transfer" required><img src="images/bt.svg" alt="bank transfer">
+                    <input type="radio" name="payment" id="bank-transfer" required><label for="bank-transfer"><img src="images/bt.svg" alt="bank transfer"></label>
                 </div>
             </div>
             <div class="buttons">
-                <button><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD MORE ITEMS</a></button>
-                <button class="confirm-order"><a href="order-placed.html">CONFIRM ORDER</a></button>
+                <a href="#"><button><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD MORE ITEMS</button></a>
+                <a href="order-placed.html"><button class="confirm-order">CONFIRM ORDER</button></a>
             </div>
         </section>
     </main>
